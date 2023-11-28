@@ -1,0 +1,25 @@
+.container {
+  height: calc(100vh - 3rem);
+  width: 100%;
+  display: flex;
+
+  .aside {
+    width: 30%;
+    outline: 1px solid #bcbcbc;
+  }
+
+  .info {
+    width: 70%;
+    outline: 1px solid #bcbcbc;
+
+    .content-1 {
+      height: 50%;
+      outline: 1px solid #bcbcbc;
+    }
+
+    .content-2 {
+      height: 50%;
+      outline: 1px solid #bcbcbc;
+    }
+  }
+}
