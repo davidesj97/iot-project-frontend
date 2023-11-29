@@ -1,25 +1,28 @@
-.container {
+.container-fluid {
   height: calc(100vh - 3rem);
-  width: 100%;
   display: flex;
+  --bs-gutter-x: initial !important;
 
   .aside {
-    width: 30%;
+    width: 55%;
     outline: 1px solid #bcbcbc;
   }
 
   .info {
-    width: 70%;
+    width: 45%;
     outline: 1px solid #bcbcbc;
 
     .content-1 {
       height: 50%;
       outline: 1px solid #bcbcbc;
+      overflow: scroll;
+      padding: 1rem;
     }
 
     .content-2 {
       height: 50%;
       outline: 1px solid #bcbcbc;
+      padding: 1rem;
     }
   }
 }
